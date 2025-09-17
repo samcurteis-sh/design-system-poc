@@ -1,0 +1,22 @@
+@import 'settings/colors';
+@import 'tools/theme';
+@import 'components/button';
+
+// Default theme (light)
+$current-theme: $theme-light;
+
+// Apply theme variables
+body {
+  background: theme-color(background);
+  color: theme-color(text);
+}
+
+// Dark mode override
+[data-theme='dark'] {
+  $current-theme: $theme-dark !global;
+
+  body {
+    background: theme-color(background);
+    color: theme-color(text);
+  }
+}

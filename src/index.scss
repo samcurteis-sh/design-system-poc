@@ -1,6 +1,6 @@
-@import 'settings/colors';
-@import 'tools/theme';
-@import 'components/button';
+@import '01_settings/_colors';
+@import '02_tools/_theme';
+@import '06_components/_button';
 
 // Default theme (light)
 $current-theme: $theme-light;

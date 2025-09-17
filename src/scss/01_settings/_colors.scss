@@ -10,3 +10,102 @@ $theme-dark: (
   background: #121212,
   text: #ffffff,
 );
+
+// Neutrals
+$grey-900: #1f2321;
+$grey-900-50: rgba(31, 35, 33, 0.5);
+$grey-900-30: rgba(31, 35, 33, 0.3);
+$grey-900-10: rgba(31, 35, 33, 0.1);
+$grey-700: #464c49;
+$grey-500: #6f7572;
+$grey-300: #9b9d9c;
+$grey-100: #e0e0e0;
+$grey-50: #f3f4f6;
+$grey-0: #ffffff;
+
+// System colors
+$green-900: #22593e;
+$green-700: #32845c;
+$green-500: #54b787;
+$green-300: #77dbaa;
+$green-100: #cef2e1;
+$green-50: #f2f9f5;
+
+$yellow-900: #5e4e00;
+$yellow-700: #a28700;
+$yellow-500: #e6c419;
+$yellow-300: #ffe460;
+$yellow-100: #fff0a4;
+$yellow-50: #fffbe8;
+
+$red-900: #711000;
+$red-700: #b52a14;
+$red-500: #f9583e;
+$red-300: #ff8b79;
+$red-100: #ffbdb2;
+$red-50: #ffeeec;
+
+$lilac-900: #272a59;
+$lilac-700: #44498c;
+$lilac-500: #676dbf;
+$lilac-300: #8f96f2;
+$lilac-100: #c5c9fe;
+$lilac-50: #f4f5ff;
+
+$stone-900: #4f3615;
+$stone-700: #825c2c;
+$stone-500: #b5864a;
+$stone-300: #e8bd87;
+$stone-100: #e9dbc9;
+$stone-50: #f4ede4;
+
+// Color aliases
+
+$background-color-primary: $green-50;
+$background-color-secondary: $grey-50;
+$background-color-disabled: $grey-100;
+$background-color-white: $grey-0;
+
+$warning-dark: $yellow-900;
+$warning-bold: $yellow-500;
+$warning-light: $yellow-50;
+
+$info-dark: $lilac-900;
+$info-bold: $lilac-500;
+$info-light: $lilac-50;
+
+$success-dark: $green-900;
+$success-bold: $green-500;
+$success-light: $green-50;
+
+$error-dark: $red-900;
+$error-bold: $red-500;
+$error-light: $red-50;
+
+$info-alt-dark: $stone-900;
+$info-alt-bold: $stone-500;
+$info-alt-light: $stone-50;
+
+$text-color-primary: $grey-900;
+$text-color-secondary: $grey-700;
+$text-color-hover: $green-900;
+$text-color-disabled: $grey-500;
+$text-color-inverse: $grey-0;
+
+$text-color-success: $green-700;
+$text-color-warning: $yellow-700;
+$text-color-error: $red-700;
+$text-color-info: $lilac-700;
+$text-color-info-alt: $stone-700;
+
+$icon-color-primary: $grey-900;
+$icon-color-secondary: $grey-700;
+$icon-color-hover: $green-900;
+$icon-color-disabled: $grey-500;
+$icon-color-inverse: $grey-0;
+
+$icon-colour-success: $green-700;
+$icon-colour-warning: $yellow-700;
+$icon-colour-error: $red-700;
+$icon-colour-info: $lilac-700;
+$icon-colour-info-alt: $stone-700;

@@ -7,8 +7,18 @@
   cursor: pointer;
 
   &--primary {
-    background: $color-primary;
+    background: $green-500;
     color: #fff;
+    &:hover {
+      background: $green-700;
+    }
+    &:focus {
+      background: $green-700;
+    }
+    &:disabled {
+      background: $text-color-disabled;
+      cursor: not-allowed;
+    }
   }
 
   &--secondary {

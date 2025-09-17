@@ -1,0 +1,22 @@
+@use '../01_settings/spacing' as *;
+@use '../01_settings/breakpoints' as *;
+
+@mixin spacing($property, $size) {
+  $value: map-get($spacings, $size);
+  @if $value != null {
+    #{$property}: $value;
+  } @else {
+    @warn "No spacing value for `#{$size}` found!";
+  }
+}
+
+@mixin respond-to($size) {
+  $query: map-get($breakpoints, $size);
+  @if $query != null {
+    @media (min-width: $query) {
+      @content;
+    }
+  } @else {
+    @warn "No breakpoint `#{$size}` found!";
+  }
+}

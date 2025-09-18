@@ -1,16 +1,6 @@
 $color-primary: #007bff;
 $color-secondary: #6c757d;
 
-$theme-light: (
-  background: #ffffff,
-  text: #000000,
-);
-
-$theme-dark: (
-  background: #121212,
-  text: #ffffff,
-);
-
 // Neutrals
 $grey-900: #1f2321;
 $grey-900-50: rgba(31, 35, 33, 0.5);
@@ -109,3 +99,13 @@ $icon-colour-warning: $yellow-700;
 $icon-colour-error: $red-700;
 $icon-colour-info: $lilac-700;
 $icon-colour-info-alt: $stone-700;
+
+$theme-light: (
+  background: $background-color-primary,
+  text: $text-color-primary,
+);
+
+$theme-dark: (
+  background: #121212,
+  text: $text-color-inverse,
+);
